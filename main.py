@@ -39,13 +39,13 @@ if __name__ == "__main__":
             ball.hit_paddle(right_paddle, left_paddle)
         if ball.xcor() > DEFINITELY_MISSED:
             left_score.update()
-            if left_score.score > 1:
+            if left_score.score > 10:
                 game_is_on = False
             ball.reset()
         elif ball.xcor() < -DEFINITELY_MISSED:
             right_score.update()
             print(right_score.score)
-            if right_score.score > 1:
+            if right_score.score > 10:
                 game_is_on = False
             ball.reset()
 
