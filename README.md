@@ -1,6 +1,18 @@
 # Pong Game
 A classic Pong game implemented using Python's `turtle` module. This is a two-player game where each player controls a paddle, and the objective is to score points by making the opponent miss the ball.
 
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+- [Controls](#controls)
+- [How to Play](#how-to-play)
+- [Code Structure](#code-structure)
+- [License](#license)
+
+
 ## Features
 - Two-player controls: Players can move their paddles up and down using keyboard keys.
 - Scoring system: The game ends when one player scores 11 points more than the opponent.
